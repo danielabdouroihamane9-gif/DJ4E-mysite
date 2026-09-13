@@ -1,4 +1,4 @@
-# Web Application Technologies and Django (DJ4E)
+O# Web Application Technologies and Django (DJ4E)
 
 ## 📌 Module 1: Web Technologies Overview
 **Core Objective:** Understand the HTTP Request-Response cycle and fundamental web protocols.
@@ -46,4 +46,15 @@
 *   **"No changes detected":** This means you ran `makemigrations`, but Django did not find any model code in `models.py`, or the app is not registered in `settings.py` under `INSTALLED_APPS`.
 *   **"Command not found":** Ensure your virtual environment is activated (`workon django_env`) before running `python manage.py ...` commands.
 
----
+
+## 📌 Module: Introduction to SQL and SQLite (DJ4E)
+**Core Objective:** Execute raw SQL commands via the SQLite command line interface and handle database manipulation.
+*   **Commands & Syntax:**
+    *   `sqlite3 <filename>.sqlite3`: Opens or creates a local SQLite database file.
+    *   `.quit`: Exits the sqlite3 command prompt.
+    *   `.tables`: Lists all created tables in the active database.
+*   **Common SQL Operations:**
+    *   `CREATE TABLE`: Defines table schemas with column constraints (e.g., `PRIMARY KEY AUTOINCREMENT`).
+    *   `INSERT INTO`: Adds rows of data.
+    *   `SELECT ... FROM ... ORDER BY`: Queries and sorts database records.
+    *   `hex()` function: Converts text or concatenated strings into hexadecimal representation for structured assignments.
